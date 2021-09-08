@@ -1,2 +1,2 @@
-# Python-for-Finance
+Financial Analytics with Python
 
