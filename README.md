@@ -21,5 +21,5 @@
 ### Credit Card Risk Assessment
 
 
-```The dataset("Credit_default_dataset.csv") has 24 features and one target("default.payment.next.month"). Based on the independent features like Limit balance, age, education, marriage, payment 0,1.., Bill amount 1,2.., and pay amount 1,2.., the aim is to predict whether an individual having the credit card will be defaulter for the next month. Basic data preprocessing steps were applied and a simple credit risk model was created using XGBoost Classifier. Hyperparameters were tuned and the model gave an accuracy of 82%.```
+```The dataset("Credit_default_dataset.csv") has 24 features and one target("default.payment.next.month"). Based on the independent features like Limit balance, age, education, marriage, pay 1,2.., Bill amount 1,2.., and pay amount 1,2.., the aim is to predict whether an individual having the credit card will be defaulter for the next month. Basic data preprocessing steps were applied and a simple credit risk model was created using XGBoost Classifier. Hyperparameters were tuned and the model gave an accuracy of 82%.```
 
