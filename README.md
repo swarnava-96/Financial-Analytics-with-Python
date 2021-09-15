@@ -17,3 +17,9 @@
 
 ### AAPL Stock Price Prediction And Forecasting Using Stacked LSTM
 ```The Dataset (AAPL.csv) comprises of the historical data of the last five years of Apple Stock prices and was collected using Tingo API and Pandas Data Reader. I have considered the stock closing price for the entire prediction and forecast. Data preprocessing was performed as an initial step as LSTMs are sensitive to the scale of data. So, Scikit- learn's MinMAX scaler was used to convert all the data between 0 to 1. As it is a time series usecase, the datset was divided into Training and Testing data based on date. 65% of the data was used for trainig the model and the remaining 35% was used for testing. A stacked LSTM model was built using 3 hidden layers and 1 output layer. Mean Squared Error was used as a Loss function and I have used Adam as optimizer. The model performed quite well with not so high MSE value and then forecasts were made for the next 30 days based on 100 previous days time step. Visualizations were made to get a better understanding of the picture.``` 
+
+### Credit Card Risk Assessment
+
+
+```The dataset("Credit_default_dataset.csv") has 24 features and one target("default.payment.next.month"). Based on the independent features like Limit balance, age, education, marriage, payment 0,1.., Bill amount 1,2.., and pay amount 1,2.., the aim is to predict whether an individual having the credit card will be defaulter for the next month. Basic data preprocessing steps were applied and a simple credit risk model was created using XGBoost Classifier. Hyperparameters were tuned and the model gave an accuracy of 82%.```
+
